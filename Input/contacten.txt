@@ -1,0 +1,12 @@
+JerevoRij1 = voorziter
+JerevoRij1Info = voorzitter@kamphuis-fijnoord.info
+JerevoRij2 = secretaris
+JerevoRij2Info = secretaris@kamphuis-fijnoord.info
+JerevoRij3 = penningmeester
+JerevoRij3Info = penningmeester@kamphuis-fijnoord.info
+JerevoRij4 = kamphuis beheerder
+JerevoRij4Info = beheerder@kamphuis-fijnoord.info
+JerevoRij5 = website beheerder
+JerevoRij5Info = sitebeheer@kamphuis-fijnoord.info
+fijnTele = 0341-552024
+fijnEmail = kamphuis.fijnoord@gmail.com

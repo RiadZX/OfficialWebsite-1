@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Kamphuis Fijnoord</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="../CSS/style.css">
+<script src="../JavaScript/JavaScript.js"></script>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-d2 w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+
+    <a href="adres.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Adres</a>
+    <a href="voorzieningen.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Voorzieningen</a>
+    <a href="plattegrond.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Plattegrond</a>
+    <a href="bezetting.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Bezetting</a>
+    <a href="prijzen.html" class="w3-bar-item w3-button w3-padding-large w3-white">Prijzen</a>
+    <a href="contacten.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacten</a>
+    <a href="geschiedenis.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Geschiedenis</a>
+    <a href="JeReVo.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JeReVo</a>
+    <a href="https://www.ermelobuitenleven.nl/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">VVV Ermelo</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="adres.html" class="w3-bar-item w3-button w3-padding-large">Adres</a>
+    <a href="voorzieningen.html" class="w3-bar-item w3-button w3-padding-large">Voorzieningen</a>
+    <a href="plattegrond.html" class="w3-bar-item w3-button w3-padding-large">Plattegrond</a>
+    <a href="bezetting.html" class="w3-bar-item w3-button w3-padding-large">Bezetting</a>
+    <a href="prijzen.html" class="w3-bar-item w3-button w3-padding-large">Prijzen</a>
+    <a href="contacten.html" class="w3-bar-item w3-button w3-padding-large">Contacten</a>
+    <a href="geschiedenis.html" class="w3-bar-item w3-button w3-padding-large">Geschiedenis</a>
+    <a href="JeReVo.html" class="w3-bar-item w3-button w3-padding-large">JeReVo</a>
+    <a href="https://www.ermelobuitenleven.nl/" class="w3-bar-item w3-button w3-padding-large">VVV Ermelo</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-theme-d2 w3-center" style="padding:32px 16px">
+  <h1 class="w3-margin w3-xxxlarge">Prijzen</h1>
+  </header>
+  
+<!-- First Grid -->
+<div class="w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+
+      
+     <div class="dcf-overflow-x-auto" tabindex="0">
+<table class="dcf-table dcf-table-bordered dcf-table-striped dcf-w-100%">
+     
+      <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <table class="border_tabel">
+
+          <h1>Geopend</h1>
+  <tr>
+    <th>Datum</th>
+  </tr>
+  <tr>
+    <td id="datum"></td> 
+  </tr>
+</table>
+    <h1>Capaciteit</h1>
+  <table class="border_tabel">
+  <tr>
+    <th>Aantal</th>
+    <th>Hoeveelheid</th> 
+  </tr>
+  <tr>
+    <td>Personen</td>
+    <td id="personen"></td> 
+  </tr>
+  <tr>
+    <td>Verblijfseenheden</td>
+    <td id="Verblijfseenheden"></td> 
+  </tr>
+  <tr>
+    <td>Douches</td>
+    <td id="Douches"></td> 
+  </tr>
+  <tr>
+    <td>Toiletten</td>
+    <td id="toiletten"></td> 
+  </tr>
+  <tr>
+    <td>Toilet/douche</td>
+    <td id="toilet/douche"></td>
+  </tr>
+</table>
+
+       <table class="border_tabel">
+         <h2>Prijzen</h2>
+        <tr>
+          
+         <tr>
+    <th>Prijzen zelfverzorging</th>
+    <th id="jaar1"></th> 
+  </tr>
+  <tr>
+    <td>Prijzen Per Persoon Per Nacht</td>
+    <td id="pppnjaar1"></td> 
+  </tr>
+  <tr>
+    <td>Schoonmaakkosten</td>
+    <td id="skjaar1"></td> 
+  </tr>
+  <tr>
+    <td>Toeristenbelasting</td>
+    <td id=><a href= "https://www.meerinzicht.nl/belastingen/toeristenbelasting"> Toeristenbelasting Gemeente Ermelo</a></td> 
+  </tr>
+</table>
+    </div>
+    <br>     
+       <table class="border_tabel">
+         
+        <tr>
+          
+         <tr>
+    <th>Prijzen zelfverzorging</th>
+    <th id="jaar2"></th> 
+  </tr>
+  <tr>
+    <td>Prijzen Per Persoon Per Nacht</td>
+    <td id="pppnjaar2"></td> 
+  </tr>
+  <tr>
+    <td>Schoonmaakkosten</td>
+    <td id="skjaar2"></td> 
+  </tr>
+  <tr>
+    <td>Toeristenbelasting</td>
+    <td id=><a href= "https://www.meerinzicht.nl/belastingen/toeristenbelasting"> Toeristenbelasting Gemeente Ermelo</a></td> 
+  </tr>
+</table>
+<br>
+<h5 class="w3-padding-32">Bij minder dan 25 personen wordt 25 x pppn prijs gerekend
+Prijzen volpension op aanvraag.  
+Voor jongerengroepen hanteren wij de volgende staffelkorting:
+Bij 45 jongeren 1 leider gratis verblijf, bij 50 2, bij 55 3 en bij 60 4.</h5>
+    </div>
+    </div>
+  </div>
+</div>
+<script>
+  var url = "../Input/prijs.txt";
+
+var jsonFile = new XMLHttpRequest();
+    jsonFile.open("GET",url,true);
+    jsonFile.send();
+
+    jsonFile.onreadystatechange = function() {
+        if (jsonFile.readyState== 4 && jsonFile.status == 200) {
+            
+            var str = jsonFile.responseText.split("\n");
+            document.getElementById("jaar1").innerHTML = str[0].replace("jaar1 = ", "");
+            document.getElementById("pppnjaar1").innerHTML = str[1].replace("pppnjaar1 = ", "");
+            document.getElementById("skjaar1").innerHTML = str[2].replace("skjaar1 = ", "");
+            document.getElementById("jaar2").innerHTML = str[3].replace("jaar2 = ", "");
+            document.getElementById("pppnjaar2").innerHTML = str[4].replace("pppnjaar2 = ", "");
+            document.getElementById("skjaar2").innerHTML = str[5].replace("skjaar2 = ", "");
+            document.getElementById("datum").innerHTML = str[6].replace("datum = ", "");
+            document.getElementById("personen").innerHTML = str[7].replace("personen = ", "");
+            document.getElementById("Verblijfseenheden").innerHTML = str[8].replace("Verblijfseenheden = ", "");
+            document.getElementById("Douches").innerHTML = str[9].replace("Douches = ", "");
+            document.getElementById("toiletten").innerHTML = str[10].replace("toiletten = ", "");
+            document.getElementById("toilet/douche").innerHTML = str[11].replace("toilet/douche = ", "");
+
+            
+        }
+     }
+</script>
+
+  
+
+
+<!-- Footer -->
+<footer class="w3-theme-d5 w3-container w3-padding-32 w3-center">  
+
+<h3>
+  Algemeen
+</h3>
+
+  <div class="w3-medium w3-padding-8">
+    <i class="fa fa-phone w3-hover-opacity"></i> 0341-552024
+    <br>
+    <i class="fa fa-map w3-hover-opacity"></i> Kamphuis Fijnoord, Drieerweg 119, 3852 MA Ermelo
+    <br>
+    <i class="fa fa-envelope-square w3-hover-opacity"></i> kamphuis.fijnoord@gmail.com
+    <br>
+
+ </div>
+
+</footer>
+
+</body>
+</html>

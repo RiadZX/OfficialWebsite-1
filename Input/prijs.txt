@@ -1,0 +1,12 @@
+jaar1 = 2022
+pppnjaar1 = €15,00
+skjaar1 = €90,00
+jaar2 = 2023
+pppnjaar2 = €...
+skjaar2 = €100,00
+datum = 1 april tot 16 oktober
+personen = 68
+Verblijfseenheden = 4
+Douches = 8
+toiletten = 10
+toilet/douche = 1

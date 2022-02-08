@@ -1,0 +1,4 @@
+TitelExtra = Corona
+SubTitelExtra = We volgen de protocolen die opgesteld zijn voor het organiseren van een zomerkamp voor kinderen, u kunt ze hier lezen en downloaden: https://www.wegaanopzomerkamp.nl/
+TextExtra = De protocollen zijn opgesteld door: Organisaties aangesloten bij het Steunpunt KinderVakanties, YMCA Nederland, Scouting Nederland, JongNL Limburg, CCI-NL, Jantje Beton, NUSO, NJR, HISWA-RECRON in samenwerking met Nederlands Jeugdinstituut (NJI) en onderschreven door de Nederlandse Vereniging voor Kindergeneeskunde. 
+ 
